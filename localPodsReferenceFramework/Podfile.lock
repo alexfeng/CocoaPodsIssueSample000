@@ -1,0 +1,36 @@
+PODS:
+  - localPodOne (0.1.0)
+  - UMengUShare/Core (6.2.1):
+    - UMengUShare/Network
+  - UMengUShare/Network (6.2.1)
+  - UMengUShare/Social/QQ (6.2.1):
+    - UMengUShare/Core
+  - UMengUShare/Social/SMS (6.2.1):
+    - UMengUShare/Core
+  - UMengUShare/Social/WeChat (6.2.1):
+    - UMengUShare/Core
+  - UMengUShare/UI (6.2.1):
+    - UMengUShare/Core
+
+DEPENDENCIES:
+  - localPodOne (from `../localPodOne`)
+  - UMengUShare/Social/QQ (= 6.2.1)
+  - UMengUShare/Social/SMS (= 6.2.1)
+  - UMengUShare/Social/WeChat (= 6.2.1)
+  - UMengUShare/UI (= 6.2.1)
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - UMengUShare
+
+EXTERNAL SOURCES:
+  localPodOne:
+    :path: "../localPodOne"
+
+SPEC CHECKSUMS:
+  localPodOne: f124d6ac2205c6aeb6120f33ff05cb669b1e6398
+  UMengUShare: 583ac067e747c66429d5063896da0e77c4fe7688
+
+PODFILE CHECKSUM: c873fde51cfd441b6bec1f43d436cbe52fdee339
+
+COCOAPODS: 1.5.3
